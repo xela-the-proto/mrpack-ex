@@ -40,7 +40,7 @@ namespace Program
                 //string top_folder = Extract(@"C:\\Users\\thega\\RiderProjects\\mrpack extractor\\bin\\Debug\\net8.0\\Server moddato 1.2.2.mrpack");
                 (string[] links, string[] paths) = Parser(top_folder);
                 await Download(links, paths, top_folder);
-                Console.WriteLine("All done! Press any key to exit...");
+                Console.WriteLine("\n All done! Press any key to exit...");
                 Console.ReadLine();
             }
 
